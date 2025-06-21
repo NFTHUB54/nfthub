@@ -5,20 +5,29 @@
     <meta charset="UTF-8">
     <title>Investitori - NFT Hub</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
-        .container { max-width: 600px; margin: 50px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f2f2f2; padding: 0; margin: 0; }
+        .container { max-width: 600px; margin: 50px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
         h1 { text-align: center; color: #333; }
-        form { display: flex; flex-direction: column; }
-        label { margin-top: 10px; font-weight: bold; }
-        input, textarea { padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }
-        button { margin-top: 20px; padding: 10px; background-color: #ff6600; color: #fff; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+        p { text-align: center; color: #555; }
+        label { margin-top: 15px; display: block; color: #222; font-weight: bold; }
+        input, textarea {
+            width: 100%; padding: 10px; margin-top: 5px;
+            border: 1px solid #ccc; border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 20px; padding: 12px;
+            background-color: #ff6600; color: white;
+            font-weight: bold; border: none; border-radius: 5px;
+            cursor: pointer; font-size: 16px;
+        }
         button:hover { background-color: #e65c00; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Diventa un Investitore NFT Hub</h1>
-        <p>Compila il modulo per ricevere il nostro pitch completo e partecipare alla fase beta del progetto.</p>
+        <p>Compila il modulo per ricevere il nostro pitch deck e accedere alla beta riservata.</p>
         <form action="https://formspree.io/f/xnnvbree" method="POST">
             <label for="name">Nome e Cognome</label>
             <input type="text" name="name" id="name" required>
@@ -27,7 +36,7 @@
             <input type="email" name="_replyto" id="email" required>
 
             <label for="message">Messaggio</label>
-            <textarea name="message" id="message" rows="5" placeholder="Scrivici qualcosa..." required></textarea>
+            <textarea name="message" id="message" rows="6" placeholder="Scrivici qualcosa..." required></textarea>
 
             <button type="submit">Invia richiesta</button>
         </form>
