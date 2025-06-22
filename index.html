@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -8,10 +9,10 @@
 </head>
 <body>
   <header>
-    <img src="images/logo_nft_hub.png" alt="NFT Hub Logo" style="height: 80px;">
+    <img src="images/logo_nft_hub.png" alt="NFT Hub Logo" class="logo">
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="chi_siamo.html">Chi siamo</a></li>
         <li><a href="investitori.html">Investitori</a></li>
         <li><a href="faq.html">FAQ</a></li>
@@ -22,24 +23,18 @@
 
   <main>
     <section class="hero">
-      <img src="images/nfthub_banner.jpg" alt="Banner NFT Hub" style="width: 100%; max-height: 400px; object-fit: cover;">
+      <img src="images/nfthub_banner.jpg" alt="Banner NFT Hub" class="hero-image">
       <h1>La Tua Collezione Digitale, Facile e Accessibile</h1>
-      <p>NFT Hub è la piattaforma ideale per chi vuole collezionare, creare e vendere opere digitali in modo semplice, ovunque tu sia. Anche se non sei un esperto di NFT.</p>
+      <p>NFT Hub è la piattaforma ideale per collezionare, creare e vendere opere digitali in modo semplice e diretto, ovunque tu sia.</p>
       <a href="investitori.html" class="button">Scopri come investire</a>
     </section>
 
     <section class="contact">
       <h2>Contattaci</h2>
       <form action="https://formspree.io/f/xnnvbree" method="POST">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required />
-        
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-        
-        <label for="messaggio">Messaggio</label>
-        <textarea id="messaggio" name="messaggio" required></textarea>
-        
+        <input type="text" name="nome" placeholder="Il tuo nome" required>
+        <input type="email" name="email" placeholder="La tua email" required>
+        <textarea name="messaggio" placeholder="Scrivici qui..." required></textarea>
         <button type="submit">Invia</button>
       </form>
     </section>
@@ -51,11 +46,6 @@
       <a href="https://www.instagram.com/vittorio.l_/" target="_blank">@vittorio.l_</a> |
       <a href="https://www.tiktok.com/@nfthub54" target="_blank">@nfthub54</a> |
       PEC: vittorio.luongo@timpec.it
-    </p>
-  </footer>
-</body>
-</html>
-
     </p>
   </footer>
 </body>
