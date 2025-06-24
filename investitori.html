@@ -31,7 +31,7 @@
     h1, h2 {
       color: #00d9ff;
     }
-    .btn, .paypal-button {
+    .btn {
       display: inline-block;
       background: #ffd700;
       color: #000;
@@ -39,14 +39,22 @@
       border-radius: 30px;
       font-weight: bold;
       text-decoration: none;
-      margin: 10px 0;
+      margin-top: 20px;
     }
-    .invest-box {
-      background: #1e1e1e;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      border: 1px solid #00d9ff;
+    .investment-options {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+    .investment-option {
+      background: #333;
+      padding: 15px;
+      border-radius: 5px;
+      width: 30%;
+      text-align: center;
+    }
+    .investment-option h3 {
+      color: #ffd700;
     }
   </style>
 </head>
@@ -75,32 +83,32 @@
     <li>Bonus esclusivi e riconoscimenti per gli early investor</li>
   </ul>
 
-  <div class="invest-box">
-    <h3>Investimento Light – 20€</h3>
-    <p>Accesso anticipato alla beta + ringraziamento personalizzato</p>
-    <a class="paypal-button" href="https://www.paypal.com/paypalme/luongovittorio54/20" target="_blank">Dona 20€</a>
-  </div>
-
-  <div class="invest-box">
-    <h3>Supporter Pack – 50€</h3>
-    <p>Accesso anticipato + bonus NFT esclusivo al lancio</p>
-    <a class="paypal-button" href="https://www.paypal.com/paypalme/luongovittorio54/50" target="_blank">Dona 50€</a>
-  </div>
-
-  <div class="invest-box">
-    <h3>Premium Backer – 100€</h3>
-    <p>Accesso alla beta, NFT esclusivo + nome nella sezione "Supporter Ufficiali"</p>
-    <a class="paypal-button" href="https://www.paypal.com/paypalme/luongovittorio54/100" target="_blank">Dona 100€</a>
-  </div>
-
-  <div class="invest-box">
-    <h3>Founder Circle – 2500€</h3>
-    <p>Tutti i bonus + consulenza diretta + NFT personalizzato + accesso illimitato alla piattaforma futura</p>
-    <a class="paypal-button" href="https://www.paypal.com/paypalme/luongovittorio54/2500" target="_blank">Dona 2500€</a>
-  </div>
-
   <p>Per ricevere il nostro Pitch Deck completo o maggiori dettagli:</p>
   <a href="mailto:vittorio.luongo@timpec.it" class="btn">Contattaci</a>
+
+  <h3>Investi in NFT Hub</h3>
+  <div class="investment-options">
+    <div class="investment-option">
+      <h3>€20</h3>
+      <p>Investi 20€ e ricevi il nostro pacchetto base con accesso a contenuti esclusivi</p>
+      <a href="https://paypal.me/nfthub54/20" class="btn">Investi Ora</a>
+    </div>
+    <div class="investment-option">
+      <h3>€50</h3>
+      <p>Investi 50€ e ottieni un pacchetto intermedio con bonus esclusivi per i supporter</p>
+      <a href="https://paypal.me/nfthub54/50" class="btn">Investi Ora</a>
+    </div>
+    <div class="investment-option">
+      <h3>€100</h3>
+      <p>Investi 100€ e ottieni accesso completo alla versione beta + pacchetto premium</p>
+      <a href="https://paypal.me/nfthub54/100" class="btn">Investi Ora</a>
+    </div>
+    <div class="investment-option">
+      <h3>€2500</h3>
+      <p>Investi 2500€ e ricevi un pacchetto VIP con riconoscimenti, accesso anticipato e supporto prioritario</p>
+      <a href="https://paypal.me/nfthub54/2500" class="btn">Investi Ora</a>
+    </div>
+  </div>
 </section>
 
 <footer>
